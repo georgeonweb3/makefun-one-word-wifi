@@ -1,0 +1,47 @@
+Build notes — make.fun "One Word for Your Wi-Fi", slug u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72
+
+What to build: a Python 3.13 program, main.py, that writes exactly one
+word to /output/entry.txt. The word must be UTF-8, between 1 and 20
+characters, not only whitespace, and the run must be deterministic
+with no network.
+
+How the judges score it, most important first:
+1. The word describes Wi-Fi as the entrant lives it, on subject.
+2. Funny at once, a real laugh rather than a pun that needs explaining.
+3. True to how home Wi-Fi actually behaves, so the joke lands because
+   it is recognisable.
+4. Fresh: avoids the words everyone reaches for, finds a surprising
+   angle on a familiar annoyance.
+5. Works as a single word with no context needed, spelled so a reader
+   gets it instantly.
+Pairs are judged in both orders, margin 1-5; an exact tie goes to the
+shorter text, so brevity is worth points. The winning word becomes the
+sponsor's network name, so it must work as a name too.
+
+The field (137 entries at build time) clusters on Ghosting,
+Gaslighting, Peekaboo, Liar, Buffering and Flaky — all of those are
+taken many times over, and byte-identical entries share one rate with
+the earlier receipt placing above its copies, so the pick had to be
+a word nobody had entered.
+
+Four words were drafted and scored against the five criteria above:
+1. Moody — fit 5, laugh 3, truth 5, freshness 3, instant 5. True,
+   but "moody Wi-Fi" is a common phrase; the freshness is weak.
+2. Fickle — fit 5, laugh 3, truth 5, freshness 4, instant 5.
+   Accurate, but dry; the laugh is thin.
+3. Tease — fit 4, laugh 4, truth 4, freshness 4, instant 5. Punchy,
+   but generic: it could describe anything that promises and withholds.
+4. Clingy — fit 5, laugh 5, truth 5, freshness 5, instant 5. The
+   universal behaviour nobody named: your phone clings to one bar of
+   a dying signal and refuses to let go, then drops you the moment
+   you move rooms. Personification with a specific, recognisable
+   truth behind it, and a network name you would actually pick.
+
+Clingy was picked, then given one extra-mile pass on its weakest
+dimension: fit read cold, since clingy usually describes a person.
+The judge is briefed the word describes the entrant's Wi-Fi, and the
+clinging-to-a-dead-signal truth anchors it in seconds, so the word
+stands as written. Final word, exactly: "Clingy" (7 characters).
+
+Ship: main.py at the repo root, a README carrying the 3 live make.fun
+badges, and an MIT LICENSE. Repo: georgeonweb3/makefun-one-word-wifi.
